@@ -1,0 +1,123 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 11px
+}
+h3, .caption-desserts {
+	color: #383838;
+	text-align: center;
+}
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 6px;
+}
+.caption-desserts {
+	font-family: 'Didact Gothic', sans-serif;
+	letter-spacing: 1px;
+	text-justify: inter-word;
+	font-size: 15px;
+	line-height: 180%;
+}
+.image-desserts {
+	display: block;
+}
+
+#image-desserts-1 {
+	filter: contrast(1.2);
+}
+.container {
+	width: 100%;
+	margin-top: 5px;
+}
+@media screen and (max-width: 549px) {
+	.contents 	{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-desserts {
+		margin-top: 8%;
+	}
+	.caption-desserts, .image-desserts {
+		max-width: 80%;
+	}
+	.caption-desserts {
+		margin: 5% auto 10% auto;
+	}
+	.image-desserts {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 550px) and (max-width: 991px) {
+	.contents {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-desserts {
+		margin-top: 8%;
+	}
+	.caption-desserts, .image-desserts {
+		max-width: 70%;
+	}
+	.caption-desserts {
+		margin: 5% auto 5% auto;
+	}
+	.image-desserts {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1101px) {
+	.caption-desserts {
+		max-width: 65%;
+		margin-bottom: 4%;
+	}
+	.title-desserts {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.contents, .pictures {
+		width: 650px;
+	}
+	.contents, .caption-desserts, .pictures {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.image-desserts {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 1102px) {
+	.title-desserts {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.caption-desserts {
+		max-width: 70%;
+		margin-bottom: 4%;
+	}
+	.contents, .pictures {
+		width: 700px;
+	}
+	.contents, .caption-desserts, .pictures {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.image-desserts {
+		margin-bottom: 30px;
+	}
+} 

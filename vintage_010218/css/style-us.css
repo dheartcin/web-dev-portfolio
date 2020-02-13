@@ -1,0 +1,139 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 5px;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 11px
+}
+h3 {
+	color: #383838;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 6px;
+}
+.caption-us {
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 13px;
+	line-height: 160%;
+}
+.image-logo {
+	width: 20px;
+}
+.image-vintage-intro {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 549px) {
+	.contents 	{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content {
+		display: block;
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-us {
+		margin-top: 8%;
+		margin-bottom: 5%;
+	}
+	.caption-us {
+		margin-top: 0;
+		margin-bottom: 5%;
+	}
+	.image-logo {
+		text-align: center;
+		width: 60px;
+		margin-bottom: 5%;
+	}
+}
+@media screen and (min-width: 550px) and (max-width: 767px) {
+	.contents {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content {
+		display: block;
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-us {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.caption-us {
+		margin-top: 0;
+		margin-bottom: 5%;
+	}
+	.image-logo {
+		margin-bottom: 20px;
+		width: 60px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1101px) {
+	.contents {
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content {
+		display: block;
+		max-width: 65%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-us {
+		margin-bottom: 3%;
+	}
+	.caption-us {
+		margin-bottom: 4%;
+	}
+	.image-logo {
+		margin-bottom: 30px;
+		width: 60px;
+	}
+}
+@media screen and (min-width: 1102px) {
+	.contents {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.content {
+		display: block;
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title-us {
+		margin-top: 5%;
+		margin-bottom: 3%;
+	}
+	.caption-us {
+		margin-bottom: 4%;
+	}
+	.image-logo {
+		margin-bottom: 25px;
+		width: 60px;
+	}
+} 

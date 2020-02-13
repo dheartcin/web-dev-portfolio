@@ -1,0 +1,234 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  	overflow: auto;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 11px;
+}
+.header {
+	display: flex;
+}
+.logo-wrapper h4 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.logo-wrapper a, .logo-wrapper a:hover, .logo-wrapper a:active, 
+.logo-wrapper a:focus, .logo-wrapper a:visited {
+	color: #383838;
+	text-decoration: none;
+}
+.wrapper {
+	margin: 0;
+	/* for border on the bottom of header
+	 */
+	padding-bottom: 7em;
+	border-bottom: 1px solid #e3e3e3;
+}
+.logo-wrapper, .nav-wrapper {
+	margin-top: 1em;
+}
+.logo-wrapper h4 {
+	text-align: left;
+}
+.navbar-inverse {
+	background: rgba(0,0,0,0);
+	border: none;
+	margin-top: 10px;
+}
+.navbar-inverse .navbar-nav li a, .navbar-inverse .navbar-nav li a:active, 
+.navbar-inverse .navbar-nav li a:visited, .navbar-inverse .navbar-nav li a:focus {
+	font-weight: 400;
+	color: #383838;
+	letter-spacing: 3px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	color: #006600;
+}
+.navbar-inverse .navbar-toggle {
+	margin-top: 0;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {
+	/*for hamburger button
+	 */
+	background-color: #ffffff;
+	color: #505050;
+	border: none;
+	text-align: right;
+	/*positioning hamburger
+	 */
+	margin-right: 0;
+}
+.navbar-inverse .navbar-toggle:hover {
+	color: #303030;
+}
+.navbar-collapse {
+	border: none;
+}
+.navbar-collapse ul {
+	/* setting distance between dropdown
+	* menu from hamburger button
+	 */
+	margin-top: 20%;
+}
+.nav-menu {
+	font-size: 15px;
+	text-align: right;
+}
+.nav-clickable {
+	cursor: pointer;
+}
+.dropdown .dropdown-menu {
+	position: relative;
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 10px;
+	border: none;
+	box-shadow: none;
+	text-align: right;
+	font-size: 13px;
+}
+.dropdown-menu li a, .navbar-toggle {
+	display: block
+}
+.dropdown-menu li a {
+	white-space: normal;
+}
+.dropdown li a:hover {
+	margin-left: 8%;
+}
+.navbar-header, .navbar-nav li {
+    float: none;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.navbar-collapse.collapse.in {
+    display: block!important; 
+}
+.social {
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+.social ul {
+	margin: 0;
+	padding: 5px;
+}
+.social ul li {
+	margin: 5px;
+	list-style: none outside none;
+	display: inline-block;
+}
+.social i {
+	color: #000000;
+	background-color: #ffffff;
+}
+.social i:hover {
+	color: #505050;
+}
+@media screen and (max-width: 329px) {
+	.dropdown li a {
+		margin-right: 25px;
+	}
+	.logo-wrapper h4 {
+		font-size: 14.5px;
+	}
+	.nav-menu {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 330px) and (max-width: 344px) {
+	.dropdown li a {
+		margin-right: 20px;
+	}
+	.logo-wrapper h4 {
+		font-size: 15px;
+	}
+	.nav-menu {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 345px) and (max-width: 349px) {
+	.dropdown li a {
+		margin-right: 16px;
+	}
+	.logo-wrapper h4 {
+		font-size: 15px;
+	}
+	.nav-menu {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 350px) and (max-width: 365px) {
+	.dropdown li a {
+		margin-right: 10px;
+	}
+	.logo-wrapper h4 {
+		font-size: 15px;
+	}
+	.nav-menu {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 366px) and (max-width: 399px) {
+	.logo-wrapper h4 {
+		font-size: 15px;
+	}
+	.nav-menu {
+		font-size: 13px;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 549px) {
+	.dropdown li a:hover {
+		margin-left: 25%;
+	}
+}
+@media screen and (min-width: 550px) and (max-width: 767px) {
+	.navbar-collapse ul {
+		margin-top: 12%;
+		/*align menu*/
+	}
+	.dropdown li a:hover {
+		margin-left: 45%
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+	.navbar-collapse ul {
+		margin-top: 7%;
+		/*align menu*/
+	}
+	.dropdown li a:hover {
+		margin-left: 75%;
+	}
+}
+@media screen and (min-width: 991px) and (max-width: 1101px) {
+	.navbar-collapse ul {
+		margin-top: 5%;
+		/*align menu*/
+	}
+	.dropdown li a:hover {
+		margin-left: 80%;
+	}
+}
+@media screen and (min-width: 1102px) {
+	.navbar-collapse ul {
+		margin-top: 5%;
+		/*align menu*/
+	}
+	.dropdown li a:hover {
+		margin-left: 80%;
+	}
+} 

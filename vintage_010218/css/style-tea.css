@@ -1,0 +1,149 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.contents, .menu-tea {
+	margin-left: auto;
+	margin-right: auto;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 11px
+}
+h3, .caption-tea, .see-menu {
+	text-align: center;
+}
+h3, .caption-tea {
+	color: #383838;
+}
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 6px;
+}
+.caption-tea, .see-menu {
+	text-justify: inter-word;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 180%;
+}
+.see-menu {
+	color: #669966;
+	font-size: 14px;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+.menu-tea {
+	display: none;
+}
+.image-tea {
+	display: block;
+}
+@media screen and (max-width: 549px) {
+	.contents {
+		width: 500px;
+	}
+	.title-tea {
+		margin-top: 8%;
+	}
+	.caption-tea {
+		max-width: 75%;
+		margin: 5% auto 3% auto;
+	}
+	.menu-tea {
+		max-width: 85%;
+		margin-bottom: 0;
+	}
+	.menu-tea img, .image-tea {
+		margin-bottom: 30px;
+	}
+	.image-tea {
+		max-width: 80%;
+	}
+}
+@media screen and (min-width: 550px) and (max-width: 991px) {
+	.contents {
+		width: 500px;
+	}
+	.title-tea {
+		margin-top: 8%;
+	}
+	.caption-tea, .image-tea, .menu-tea {
+		max-width: 70%;
+	}
+	.caption-tea {
+		margin: 5% auto 3% auto;
+	}
+	.see-menu {
+		margin-bottom: 3%;
+	}
+	.menu-tea {
+		margin-bottom: 0;
+	}
+	.menu-tea img, .image-tea {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1101px) {
+	.title-tea {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.caption-tea, .see-menu {
+		margin-bottom: 3%;
+	}
+	.caption-tea {
+		max-width: 65%;
+	}
+	.contents, .pictures 	{
+		width: 650px;
+	}
+	.caption-tea, .pictures {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.menu-tea {
+		max-width: 65%;
+		margin-bottom: 0;
+	}
+	.menu-tea img, .image-tea {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (min-width: 1102px) {
+	.title-tea {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.caption-tea, .see-menu {
+		margin-bottom: 3%;
+	}
+	.caption-tea {
+		max-width: 70%;
+	}
+	.contents, .pictures 	{
+		width: 700px;
+	}
+	.caption-tea, .pictures {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.menu-tea {
+		max-width: 65%;
+		margin-bottom: 0;
+	}
+	.menu-tea img, .image-tea {
+		margin-bottom: 30px;
+	}
+} 

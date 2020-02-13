@@ -1,0 +1,132 @@
+*{	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+}
+.clearfix {
+  overflow: auto;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 12px;
+}
+.image-home {
+	max-width: 100%;
+	margin-bottom: 7%;
+}
+.image-logo {
+	margin-top: 8%;
+	max-width: 60px;
+}
+.social {
+	font-size: 10px;
+}
+.social i {
+	color: #383838;
+}
+.vintage-intro-upper-small, .vintage-intro-bottom-small {
+	letter-spacing: 3px;
+	max-width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vintage-intro-upper-small {
+	color: #000000;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	margin-top: 8%;
+}
+.vintage-intro-bottom-small {
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+	color: #383838;
+	letter-spacing: 1px;
+	line-height: 150%;
+	font-weight: 300;
+	margin-top: 5%;
+	margin-bottom: 8%;
+	font-size: 14px;
+}
+.vintage-header-upper, .vintage-header-bottom {
+	display: none;
+}
+
+.container {
+	width: 100%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+	.container {
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (min-width: 560px) and (max-width: 720px) {
+	.image-home {
+		width: 500px;
+		margin-bottom: 2%;
+	}
+	.image-logo {
+		margin-top: 3%;
+	}
+	.vintage-intro-upper-small {
+		margin-top: 3%;
+	}
+	.vintage-intro-bottom-small {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+}
+@media screen and (min-width: 721px) and (max-width: 920px) {
+	.image-home {
+		width: 700px;
+		margin-bottom: 2%;
+	}
+	.image-logo {
+		margin-top: 2%;
+	}
+	.vintage-intro-upper-small {
+		margin-top: 2%;
+	}
+	.vintage-intro-bottom-small {
+		margin-top: 1%;
+		margin-bottom: 2%;
+	}
+}
+@media screen and (min-width: 921px) and (max-width: 1100px) {
+	.image-home {
+		width: 700px;
+		margin-bottom: 2%;
+	}
+	.image-logo {
+		margin-top: 1%;
+	}
+	.vintage-intro-upper-small {
+		margin-top: 2%;
+	}
+	.vintage-intro-bottom-small {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+}
+@media screen and (min-width: 1101px) {
+	.image-home {
+		width: 700px;
+		margin-bottom: 2%;
+	}
+	.image-logo {
+		margin-top: 1%;
+	}
+	.vintage-intro-upper-small {
+		margin-top: 1%;
+	}
+	.vintage-intro-bottom-small {
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+}

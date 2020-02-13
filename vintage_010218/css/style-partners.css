@@ -1,0 +1,130 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix {
+  	overflow: auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.contents {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+html, body {
+	background-color:#ffffff;
+	height: 100%;
+	font-size: 11px
+}
+h3, .block-partners {
+	text-align: center;
+}
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 6px;
+}
+.title-partners {
+	margin-top: 8%;
+}
+.vintage-logo {
+	width: 60px;
+	margin-bottom: 5%;
+}
+.block-partners {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0;
+}
+.block-partners img {
+	margin-bottom: 15%;
+}
+.holder, .image-partner {
+	max-width: 300px;
+}
+.holder {
+	position: relative;
+	display: inline-block;
+}
+.image-partner {
+	opacity: 1;
+}
+.image-partner, .partner-logo {
+	transition: .25s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+}
+.partner-logo {
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	top: 40%;
+	bottom: 60%;
+	z-index: 1;
+	opacity: 0;
+}
+.long {
+	max-width: 280px;
+}
+.small {
+	max-width: 100px;
+}
+.normal {
+	max-width: 150px;
+}
+.holder:hover .image-partner, .holder:hover .partner-logo {
+	opacity: 0.7;
+}
+.holder:hover #masons-logo {
+	opacity: 0.9;
+}
+#ninth-logo {
+	max-width: 80px;
+	margin-top: 5%;
+}
+.holder p, .holder p:visited, .holder p:active{
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #000000;
+}
+.holder:hover p {
+	color: #505050;
+}
+@media screen and (min-width: 550px) and (max-width: 991px) {
+	.title-partners {
+		margin-bottom: 5%;
+	}
+	.vintage-logo {
+		margin-bottom: 25px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1101px) {
+	.contents {
+		width: 650px;
+	}
+	.title-partners {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.vintage-logo {
+		margin-bottom: 35px;
+	}
+}
+@media screen and (min-width: 1102px) {
+	.contents {
+		width: 700px;
+	}
+	.title-partners {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.vintage-logo {
+		margin-bottom: 35px;
+	}
+} 
